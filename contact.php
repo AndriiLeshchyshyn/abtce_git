@@ -5,7 +5,7 @@ $phone = $_POST['Phone'];
 $subject = $_POST['Subject'];
 $message = $_POST['Message'];
  
-$to = 'aleshishin@mail.ru';
+$to = 'test@email.com';
 $subject = 'the subject';
 $message = 'FROM:'.$name.'  Email: '.$email.'  Phone: '.$phone.'  Subject: '.$subject.'  Message: '.$message;
 $headers = 'From: aleshishin@mail.ru' . "\r\n";
