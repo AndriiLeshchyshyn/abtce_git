@@ -155,7 +155,7 @@
                         <!-- CLIENT FEEDBACK 1 -->
                         <div class="slide" data-anchor="slide1">
                             <p>it's good job!</p>
-                            <p> <span class="client-name"> <strong> Mark Williams</strong></span>
+                            <p> <span class="client-name"> <strong>anonym</strong></span>
                             <span class="client-stars">
                         <span class="icon flaticon-little27"></span> <span class="icon flaticon-little27"></span> <span class="icon flaticon-little27"></span> <span class="icon flaticon-little27"></span> <span class="icon flaticon-little27"></span> 
                            </span>
@@ -165,7 +165,7 @@
                         <!-- CLIENT FEEDBACK 2 -->
                         <div class="slide" data-anchor="slide2">
                             <p>excellent i recommend this exchange</p>
-                            <p> <span class="client-name"> <strong> Andreas Bosch</strong></span> 
+                            <p> <span class="client-name"> <strong> Andrea</strong></span> 
                             <span class="client-stars">
                         <span class="icon flaticon-little27"></span> <span class="icon flaticon-little27"></span> <span class="icon flaticon-little27"></span> <span class="icon flaticon-little27"></span> <span class="icon flaticon-little27"></span> 
                            </span>
@@ -175,7 +175,7 @@
                         <!-- CLIENT FEEDBACK 3 -->
                         <div class="slide" data-anchor="slide3">
                             <p>very good service. thanks.</p>
-                            <p> <span class="client-name"> <strong> Michael Speria</strong></span>
+                            <p> <span class="client-name"> <strong> Michael</strong></span>
                             <span class="client-stars">
                         <span class="icon flaticon-little27"></span> <span class="icon flaticon-little27"></span> <span class="icon flaticon-little27"></span> <span class="icon flaticon-little27"></span> <span class="icon flaticon-little27"></span> 
                            </span>
@@ -314,12 +314,15 @@
                     <!-- SECTION CONTACT CONTENT-->
                     <h2><strong>Buy and sell</strong></h2>
                    <!-- SECTION CONTACT FORM-->
-                   <form id="contact-form" method="POST" action="http://formspree.io/abtcemoney@gmail.com">
-                        <input type="number" placeholder="How bitcoin you want to sell?" name="Name" id="Name">
-                        <input type="email" placeholder="Your PayPal adress" name="Email" id="Email" required>
-                        <textarea placeholder="Your message, questions, comments, feedback" name="Message" id="Message" required></textarea>
-                        <button type="submit" id="submit">Send request</button>    
-                    </form> 
+                   <form role="form" method="post" id="contact-form">
+                        <input type="text" placeholder="Name" name="Name" id="Name" required>
+                        <input type="email" placeholder="Email" name="Email" id="Email" required>
+                        <input type="text" placeholder="Phone" name="Phone" id="Phone">
+                        <input type="text" placeholder="Subject" name="Subject" id="Subject">
+                        <textarea placeholder="Message" name="Message" id="Message" required></textarea>
+                        <button type="submit" id="submit">Send</button>
+                        <div id="success"></div>
+                    </form>
                     
                 <!-- END SECTION CONTACT -->
                 </div>
