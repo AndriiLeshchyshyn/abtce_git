@@ -37,7 +37,7 @@
 });
  
  
- $('#submit').click(function(){
+/*$('#submit').click(function(){
 
 $.post("contact.php", $("#contact-form").serialize(),  function(response) {
 $('#success').fadeIn().html(response);
@@ -47,7 +47,7 @@ return false;
  
 });
  
-
+*/
 
 
   });
